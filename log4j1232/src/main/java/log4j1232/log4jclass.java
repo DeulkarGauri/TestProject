@@ -16,11 +16,7 @@ public class log4jclass {
 		 * log.trace("Trace Message!"); log.debug("Debug Message!");
 		 * log.info("Info Message!"); log.warn("Warn Message!");
 		 * log.error("Error Message!"); log.fatal("Fatal Message!");
-		 * 
 		 */
-
-		// BasicConfigurator.configure();
-		mylogger.info("hello java");
 		mylogger.trace("Hello this is trace message");
 
 		mylogger.debug("Hello This is debug message..");
