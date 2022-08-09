@@ -1,4 +1,4 @@
-package log4j1232;
+package log4jExample;
 
 import java.io.FileNotFoundException;
 
