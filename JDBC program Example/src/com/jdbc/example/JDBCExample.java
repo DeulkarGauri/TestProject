@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 class Data {
+
 	static String url = "jdbc:mysql://localhost/employee";
 	static String username = "root";
 	static String password = "manu";
@@ -17,6 +18,7 @@ class Data {
 public class JDBCExample {
 
 	public static void main(String[] args) {
+
 		System.out.println("******jdbc Program*******");
 
 		String query = "select  id ,name,  percentage  from student_detail where courses_id = 2";
@@ -26,13 +28,12 @@ public class JDBCExample {
 		ResultSet res = null;
 
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 
 			try {
 				conn = DriverManager.getConnection(Data.url, Data.username, Data.password); // creating an object of//
 																							// driver manager and pass
-																							// // it value that is url
-																							// ,// name passwordp
+				// ,// name passwordp
 
 				stmt = conn.createStatement(); // creating an statement
 

@@ -6,8 +6,17 @@ import java.util.Optional;
 
 public class StreamAPI {
 	/*
+	 * stream is an sequence of element element are of any type which supports
+	 * sequential and parallel operation like
+	 * 
+	 * aggrigate operations are :- sum,count,filter.avg,min,max,groupBy,distinct
+	 *
 	 * stream api is used in collection it has so method lambda exression also used
-	 * in stream api
+	 * in stream api. .
+	 * 
+	 * Stream pipeline:-
+	 * 
+	 * we can create stream pipeline by combining multiple stream operation together
 	 * 
 	 */ public static void main(String[] args) {
 		System.out.println("Stream API practice program......");

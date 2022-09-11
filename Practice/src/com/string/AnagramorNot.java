@@ -6,27 +6,23 @@ public class AnagramorNot {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String S1 = "aradhya";
-String S2 = "hradaya";
+		String S1 = "mana";
+		String S2 = "nama";
 
-char[] a = S1.toCharArray();
-char[] b = S2.toCharArray();
+		char[] a = S1.toCharArray();
+		char[] b = S2.toCharArray();
 
- Arrays.sort(a);
-Arrays.sort(b);
+		Arrays.sort(a);
+		Arrays.sort(b);
 
-	
-boolean Result =	Arrays.equals(a, b);
+		boolean Result = Arrays.equals(a, b);
 
-if(Result == true) {
-System.out.println("Given String Are anagram:");
-}else {
-	System.out.println("Given String Are not anagram");
-}
-	
-	
-	
-	
+		if (Result == true) {
+			System.out.println("Given String Are anagram:");
+		} else {
+			System.out.println("Given String Are not anagram");
+		}
+
 	}
 
 }
